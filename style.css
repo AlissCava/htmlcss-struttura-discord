@@ -41,26 +41,38 @@ nav{
     background-color: deeppink;
 }
 
-.riga1 .riga3{
+/* #riga1 riga3{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /* debud */
-    min-height: 400px;
-    background-color: rgb(203, 175, 139)
-}
-
-#riga2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* debud */
-    min-height: 400px;
+    /* min-height: 400px;
     background-color: rgb(203, 175, 139);
+} */
+
+.riga{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* debud */
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
 
 }
+
+.rigagrigia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* debud */
+    min-height: 400px;
+    background-color: rgb(223, 223, 223);
+
+}
+
 
 .azzurro{
     min-height: 300px;
@@ -73,5 +85,13 @@ nav{
     min-height: 300px;
     width: 20%;
     background-color: lightpink;
+    border: 2px solid black;
+}
+
+#green{
+    height: 400px;
+    width: 50%;
+    margin: 50px;
+    background-color: rgb(182, 255, 185);
     border: 2px solid black;
 }
